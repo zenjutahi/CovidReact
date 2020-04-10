@@ -54,7 +54,7 @@ class Global extends React.Component {
                   {/* <div class="widget-subtitle">So far <span class="label label-default">{this.state.globalData.affectedCountries}</span> Countries have been impacted</div> */}
               </div>
               <div class="widget-controls">
-                  <a href="#" class="widget-control-right"><span class="fa fa-comments"></span></a>
+                  <a href="#" class="widget-control-right"><span class="fa fa-list-ol"></span></a>
               </div>
           </div>
 
@@ -74,7 +74,7 @@ class Global extends React.Component {
                       <div class="widget-subtitle">{this.state.globalData.deathsPerOneMillion} <Gstyles>Deaths per Million</Gstyles></div> */}
                   </div>
                   <div class="widget-controls">
-                      <a href="#" class="widget-control-right"><span class="fa fa-comments"></span></a>
+                      <a href="#" class="widget-control-right"><span class="fa fa-tachometer"></span></a>
                   </div>
               </div>
 
