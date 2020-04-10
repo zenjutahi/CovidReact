@@ -1,5 +1,7 @@
 import React from 'react';
+
 import styled from "styled-components";
+import Moment from 'react-moment';
 
 class Global extends React.Component {
   constructor(){
@@ -35,6 +37,8 @@ class Global extends React.Component {
       font-size: 12px;
       text-transform: none;
         `;
+
+
     return (
       <div className="row">
 
@@ -50,6 +54,7 @@ class Global extends React.Component {
                   <div class="widget-title"><span class="label label-success">{this.state.globalData.recovered}</span> <Gstyles>Recoveries</Gstyles></div>
                   <div class="widget-title"><span class="label label-warning">{this.state.globalData.critical}</span> <Gstyles>Critical Condition patients</Gstyles></div>
                   <div class="widget-title"><span class="label label-default">{this.state.globalData.tests}</span> <Gstyles>Individuals Tested Worldwide</Gstyles></div>
+                  <div class="widget-big-int plugin-clock"><Moment>{this.state.globalData.updated}</Moment></div>
                   {/* <div class="widget-title"><span class="label label-warning">{this.state.globalData.affectedCountries} </span><Gstyles> Affected Countries</Gstyles></div> */}
                   {/* <div class="widget-subtitle">So far <span class="label label-default">{this.state.globalData.affectedCountries}</span> Countries have been impacted</div> */}
               </div>
@@ -70,6 +75,7 @@ class Global extends React.Component {
                       <div class="widget-title"><span class="label label-primary">{this.state.globalData.affectedCountries}</span> <Gstyles>Countries affected thus far</Gstyles></div>
                       <div class="widget-title"><span class="label label-warning">{this.state.globalData.todayCases}</span> <Gstyles>Infections reported Today</Gstyles></div>
                       <div class="widget-title"><span class="label label-danger">{this.state.globalData.todayDeaths}</span> <Gstyles>Deaths reported Today</Gstyles></div>
+                      <div class="widget-big-int plugin-clock"><Moment>{this.state.globalData.updated}</Moment></div>
                       {/* <div class="widget-subtitle">{this.state.globalData.casesPerOneMillion} <Gstyles>Cases per Million</Gstyles></div>
                       <div class="widget-subtitle">{this.state.globalData.deathsPerOneMillion} <Gstyles>Deaths per Million</Gstyles></div> */}
                   </div>
