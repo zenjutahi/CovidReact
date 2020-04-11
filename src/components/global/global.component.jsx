@@ -55,7 +55,7 @@ class Global extends React.Component {
               </div>
               <div class="widget-data">
                   <div class="widget-int num-count"><h4>{this.numberFortmat(this.state.globalData.cases)} Cases Globally</h4></div>
-                  <div class="widget-title"><span class="label label-danger"></span>{this.numberFortmat(this.state.globalData.deaths)}<Gstyles>Deaths</Gstyles></div>
+                  <div class="widget-title"><span class="label label-danger">{this.state.globalData.deaths}</span> <Gstyles>Deaths</Gstyles></div>
                   <div class="widget-title"><span class="label label-success">{this.state.globalData.recovered}</span> <Gstyles>Recoveries</Gstyles></div>
                   <div class="widget-title"><span class="label label-warning">{this.state.globalData.critical}</span> <Gstyles>Critical Condition</Gstyles></div>
                   <div class="widget-title"><span class="label label-default">{this.state.globalData.tests}</span> <Gstyles>Individuals Tested</Gstyles></div>
