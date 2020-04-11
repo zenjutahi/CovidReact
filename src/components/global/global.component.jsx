@@ -69,9 +69,9 @@ class Global extends React.Component {
                   </div>
                   <div class="widget-data">
                       <div class="widget-int num-count"><h4>Daily Global Data</h4></div>
-                      <div class="widget-title"><span class="label label-primary">{this.state.globalData.affectedCountries}</span> <Gstyles>Countries affected thus far</Gstyles></div>
-                      <div class="widget-title"><span class="label label-warning">{this.state.globalData.todayCases}</span> <Gstyles>Infections reported Today</Gstyles></div>
-                      <div class="widget-title"><span class="label label-danger">{this.state.globalData.todayDeaths}</span> <Gstyles>Deaths reported Today</Gstyles></div>
+                      <div class="widget-title"><span class="label label-primary">{this.state.globalData.affectedCountries}</span> <Gstyles>Countries affected</Gstyles></div>
+                      <div class="widget-title"><span class="label label-warning">{this.state.globalData.todayCases}</span> <Gstyles>Infections reported</Gstyles></div>
+                      <div class="widget-title"><span class="label label-danger">{this.state.globalData.todayDeaths}</span> <Gstyles>Deaths reported</Gstyles></div>
                       <div class="widget-big-int plugin-clock"><Moment>{this.state.globalData.updated}</Moment></div>
                       {/* <div class="widget-subtitle">{this.state.globalData.casesPerOneMillion} <Gstyles>Cases per Million</Gstyles></div>
                       <div class="widget-subtitle">{this.state.globalData.deathsPerOneMillion} <Gstyles>Deaths per Million</Gstyles></div> */}
