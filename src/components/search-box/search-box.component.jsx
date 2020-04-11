@@ -7,7 +7,7 @@ const SearchBox = ({ placeholder, handleChange }) => (
           <div class="panel-body panel-body-search">
               <div class="input-group">
                   <span class="input-group-addon"><span class="fa fa-search"></span></span>
-                  <input type="text" class="form-control" onChange={handleChange} placeholder="Search..."/>
+                  <input type="text" class="form-control" onChange={handleChange} placeholder="Search by country name..."/>
               </div>
           </div>
       </div>
