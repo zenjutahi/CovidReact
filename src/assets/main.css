@@ -1214,7 +1214,8 @@ body.page-container-boxed .page-container {
   float: left;
   width: 100%;
   list-style: none;
-  padding: 0px;
+  padding-left: -6px;
+  padding-bottom: 10px;
   margin: 0px;
 }
 .list-tags li {
@@ -1231,8 +1232,8 @@ body.page-container-boxed .page-container {
   -webkit-border-radius: 3px;
   border-radius: 3px;
   line-height: 23px;
-  font-size: 11px;
-  margin: 0px 5px 5px 0px;
+  font-size: 13px;
+  margin: 10px 5px 5px 10px;
   padding: 0px 8px;
   color: #656d78;
 }
