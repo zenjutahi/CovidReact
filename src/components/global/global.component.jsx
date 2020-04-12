@@ -57,8 +57,8 @@ class Global extends React.Component {
                   <div class="widget-int num-count"><h4>{this.numberFortmat(this.state.globalData.cases)} Cases Globally</h4></div>
                   <div class="widget-title"><span class="label label-danger">{this.state.globalData.deaths}</span> <Gstyles>Deaths</Gstyles></div>
                   <div class="widget-title"><span class="label label-success">{this.state.globalData.recovered}</span> <Gstyles>Recoveries</Gstyles></div>
-                  <div class="widget-title"><span class="label label-warning">{this.state.globalData.critical}</span> <Gstyles>Critical Condition</Gstyles></div>
-                  <div class="widget-title"><span class="label label-default">{this.state.globalData.tests}</span> <Gstyles>Individuals Tested</Gstyles></div>
+                  <div class="widget-title"><span class="label label-warning">{this.state.globalData.critical}</span> <Gstyles>Critical condition</Gstyles></div>
+                  <div class="widget-title"><span class="label label-default">{this.state.globalData.tests}</span> <Gstyles>Individuals tested</Gstyles></div>
                   <div class="widget-big-int plugin-clock">Updated : <Moment>{this.state.globalData.updated}</Moment></div>
                   {/* <div class="widget-title"><span class="label label-warning">{this.state.globalData.affectedCountries} </span><Gstyles> Affected Countries</Gstyles></div> */}
                   {/* <div class="widget-subtitle">So far <span class="label label-default">{this.state.globalData.affectedCountries}</span> Countries have been impacted</div> */}
@@ -94,10 +94,13 @@ class Global extends React.Component {
               </div>
               <Newstyles>
               <ul class="list-tags">
-                  <li><a href="#"><span class="fa fa-tag"></span> Stay Indoors</a></li>
-                  <li><a href="#"><span class="fa fa-tag"></span> Social Distance</a></li>
-                  <li><a href="#"><span class="fa fa-tag"></span> Clean Habits</a></li>
-                  <li><a href="#"><span class="fa fa-tag"></span> Respiratory Hygiene</a></li>
+                  <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-primary">Blessed Easter Holiday</span></a></li>
+                  <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-primary">Proverbs 1:7</span></a></li>
+                  <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-info">Stay Indoors</span></a></li>
+                  <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-info">Give Back</span></a></li>
+                  <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-warning">Social Distance</span></a></li>
+                  <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-warning">Clean Habits</span></a></li>
+                  <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-warning">Respiratory Hygiene</span></a></li>
               </ul>
               </Newstyles>
           </div>
