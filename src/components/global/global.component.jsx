@@ -89,8 +89,6 @@ class Global extends React.Component {
           <div class="panel panel-default">
               <div class="panel-body">
                   <h4><span class="fa fa-tags"></span> Key Points To Note</h4>
-                  <div class="user">
-                  </div>
               </div>
               <Newstyles>
               <ul class="list-tags">
@@ -101,6 +99,8 @@ class Global extends React.Component {
                   <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-warning">Social Distance</span></a></li>
                   <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-warning">Clean Habits</span></a></li>
                   <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-warning">Respiratory Hygiene</span></a></li>
+                  <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-warning">Wear a mask</span></a></li>
+                  <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-warning">Santize!!</span></a></li>
               </ul>
               </Newstyles>
           </div>
