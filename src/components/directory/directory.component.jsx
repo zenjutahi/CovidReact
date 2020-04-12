@@ -1,5 +1,5 @@
 import React from 'react';
-
+// import { Switch, Route } from 'react-router-dom';
 import CollectionItem from '../collection-item/collection-item.component';
 
 import SearchBox from '../search-box/search-box.component';
