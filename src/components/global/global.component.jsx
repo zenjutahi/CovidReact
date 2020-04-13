@@ -88,7 +88,7 @@ class Global extends React.Component {
           <div class="col-md-6">
           <div class="panel panel-default">
               <div class="panel-body">
-                  <h4><span class="fa fa-tags"></span>Side Notes</h4>
+                  <h4><span class="fa fa-tags"></span> Side Notes</h4>
               </div>
               <Newstyles>
               <ul class="list-tags">
