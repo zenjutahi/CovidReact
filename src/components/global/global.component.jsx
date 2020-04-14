@@ -92,8 +92,8 @@ class Global extends React.Component {
               </div>
               <Newstyles>
               <ul class="list-tags">
-                  <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-primary">Blessed Easter Holiday</span></a></li>
-                  <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-primary">Proverbs 1:7</span></a></li>
+                  <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-primary">Be kind</span></a></li>
+                  <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-primary">Proverbs 1:6</span></a></li>
                   <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-info">Stay Indoors</span></a></li>
                   <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-info">Give Back</span></a></li>
                   <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-warning">Social Distance</span></a></li>
