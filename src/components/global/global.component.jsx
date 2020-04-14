@@ -52,7 +52,7 @@ class Global extends React.Component {
                   <div class="widget-title"><span class="label label-danger">{this.state.globalData.deaths}</span> <Gstyles>Deaths</Gstyles></div>
                   <div class="widget-title"><span class="label label-success">{this.state.globalData.recovered}</span> <Gstyles>Recoveries</Gstyles></div>
                   <div class="widget-title"><span class="label label-warning">{this.state.globalData.critical}</span> <Gstyles>Critical condition</Gstyles></div>
-                  <div class="widget-title"><span class="label label-default">{this.state.globalData.tests}</span> <Gstyles>Individuals tested</Gstyles></div>
+                  <div class="widget-title"><span class="label label-default">{this.state.globalData.tests}</span> <Gstyles>Tested</Gstyles></div>
                   <div class="widget-big-int plugin-clock">Updated : <Moment>{this.state.globalData.updated}</Moment></div>
                   {/* <div class="widget-title"><span class="label label-warning">{this.state.globalData.affectedCountries} </span><Gstyles> Affected Countries</Gstyles></div> */}
                   {/* <div class="widget-subtitle">So far <span class="label label-default">{this.state.globalData.affectedCountries}</span> Countries have been impacted</div> */}
