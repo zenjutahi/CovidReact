@@ -32,12 +32,6 @@ class Global extends React.Component {
 
       `;
 
-    const DailyDiv = styled.div`
-      font-size: 12px;
-      text-transform: none;
-
-        `;
-
     const Gstyles = styled.span`
       font-size: 12px;
       text-transform: none;
