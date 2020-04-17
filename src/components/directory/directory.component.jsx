@@ -16,7 +16,7 @@ class Directory extends React.Component {
   }
 
   UNSAFE_componentWillMount() {
-    fetch('https://corona.lmao.ninja/countries?sort=country')
+    fetch('https://corona.lmao.ninja/v2/countries?sort=country')
     .then(response => response.json())
     .then(res => this.setState({ countries: res}))
   }
