@@ -14,7 +14,7 @@ class Global extends React.Component {
   }
 
   UNSAFE_componentWillMount() {
-    fetch('https://corona.lmao.ninja/all')
+    fetch('https://corona.lmao.ninja/v2/all')
     .then(response => response.json())
     .then(res => this.setState({ globalData: res}))
   }
