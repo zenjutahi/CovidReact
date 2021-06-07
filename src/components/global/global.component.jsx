@@ -49,11 +49,11 @@ class Global extends React.Component {
               </div>
               <div class="widget-data">
                   <div class="widget-int num-count"><h4>{this.numberFortmat(this.state.globalData.cases)} Cases Globally</h4></div>
-                  <div class="widget-title"><span class="label label-danger">{this.state.globalData.deaths}</span> <Gstyles>Deaths</Gstyles></div>
-                  <div class="widget-title"><span class="label label-success">{this.state.globalData.recovered}</span> <Gstyles>Recoveries</Gstyles></div>
-                  <div class="widget-title"><span class="label label-warning">{this.state.globalData.critical}</span> <Gstyles>Critical condition</Gstyles></div>
-                  <div class="widget-title"><span class="label label-default">{this.state.globalData.tests}</span> <Gstyles>Tested</Gstyles></div>
-                  <div class="widget-big-int plugin-clock">Updated : <Moment>{this.state.globalData.updated}</Moment></div>
+                  <div class="widget-title"><span class="label label-danger">{this.numberFortmat(this.state.globalData.deaths)}</span> <Gstyles>Deaths</Gstyles></div>
+                  <div class="widget-title"><span class="label label-success">{this.numberFortmat(this.state.globalData.recovered)}</span> <Gstyles>Recoveries</Gstyles></div>
+                  <div class="widget-title"><span class="label label-warning">{this.numberFortmat(this.state.globalData.critical)}</span> <Gstyles>Critical condition</Gstyles></div>
+                  <div class="widget-title"><span class="label label-default">{this.numberFortmat(this.state.globalData.tests)}</span> <Gstyles>Tested</Gstyles></div>
+                  <div class="widget-big-int plugin-clock">Updated : <Moment>{this.numberFortmat(this.state.globalData.updated)}</Moment></div>
                   {/* <div class="widget-title"><span class="label label-warning">{this.state.globalData.affectedCountries} </span><Gstyles> Affected Countries</Gstyles></div> */}
                   {/* <div class="widget-subtitle">So far <span class="label label-default">{this.state.globalData.affectedCountries}</span> Countries have been impacted</div> */}
               </div>
@@ -68,10 +68,10 @@ class Global extends React.Component {
                   </div>
                   <div class="widget-data">
                       <div class="widget-int num-count"><h4>Daily Global Data</h4></div>
-                      <div class="widget-title"><span class="label label-primary">{this.state.globalData.affectedCountries}</span> <Gstyles>Countries affected</Gstyles></div>
-                      <div class="widget-title"><span class="label label-warning">{this.state.globalData.todayCases}</span> <Gstyles>Infections reported</Gstyles></div>
-                      <div class="widget-title"><span class="label label-danger">{this.state.globalData.todayDeaths}</span> <Gstyles>Deaths reported</Gstyles></div>
-                      <div class="widget-big-int plugin-clock">Updated : <Moment>{this.state.globalData.updated}</Moment></div>
+                      <div class="widget-title"><span class="label label-primary">{this.numberFortmat(this.state.globalData.affectedCountries)}</span> <Gstyles>Countries affected</Gstyles></div>
+                      <div class="widget-title"><span class="label label-warning">{this.numberFortmat(this.state.globalData.todayCases)}</span> <Gstyles>Infections reported</Gstyles></div>
+                      <div class="widget-title"><span class="label label-danger">{this.numberFortmat(this.state.globalData.todayDeaths)}</span> <Gstyles>Deaths reported</Gstyles></div>
+                      <div class="widget-big-int plugin-clock">Updated : <Moment>{this.numberFortmat(this.state.globalData.updated)}</Moment></div>
                       {/* <div class="widget-subtitle">{this.state.globalData.casesPerOneMillion} <Gstyles>Cases per Million</Gstyles></div>
                       <div class="widget-subtitle">{this.state.globalData.deathsPerOneMillion} <Gstyles>Deaths per Million</Gstyles></div> */}
                   </div>
@@ -87,7 +87,7 @@ class Global extends React.Component {
               <Newstyles>
               <ul class="list-tags">
                   <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-primary">Listen To vistawillz 🔥🔥</span></a></li>
-                  <li><a href="https://soundcloud.com/vistawillz"><span class="fa fa-tag"></span> <span class="label label-primary">https://soundcloud.com/vistawillz</span></a></li>
+                  <li><a href=""><span class="fa fa-tag"></span> <span class="label label-primary">https://soundcloud.com/vistawillz</span></a></li>
                   <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-info">Stay Indoors</span></a></li>
                   <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-info">Give Back</span></a></li>
                   <li><a href="#"><span class="fa fa-tag"></span> <span class="label label-warning">Social Distance</span></a></li>
